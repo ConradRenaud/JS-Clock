@@ -1,4 +1,8 @@
-*, *::before, *::after {box-sizing: border-box;}
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
 
 body {
     background: linear-gradient(90deg, hsl(200, 100%, 50%), hsl(175, 100%, 50%));
@@ -31,17 +35,50 @@ body {
     font-size: 1.5em;
 }
 
-.number1 {--rotation: 30deg;}
-.number2 {--rotation: 60deg;}
-.number3 {--rotation: 90deg;}
-.number4 {--rotation: 120deg;}
-.number5 {--rotation: 150deg;}
-.number6 {--rotation: 180deg;}
-.number7 {--rotation: 210deg;}
-.number8 {--rotation: 240deg;}
-.number9 {--rotation: 270deg;}
-.number10 {--rotation: 300deg;}
-.number11 {--rotation: 330deg;}
+.number1 {
+    --rotation: 30deg;
+}
+
+.number2 {
+    --rotation: 60deg;
+}
+
+.number3 {
+    --rotation: 90deg;
+}
+
+.number4 {
+    --rotation: 120deg;
+}
+
+.number5 {
+    --rotation: 150deg;
+}
+
+.number6 {
+    --rotation: 180deg;
+}
+
+.number7 {
+    --rotation: 210deg;
+}
+
+.number8 {
+    --rotation: 240deg;
+}
+
+.number9 {
+    --rotation: 270deg;
+}
+
+.number10 {
+    --rotation: 300deg;
+}
+
+.number11 {
+    --rotation: 330deg;
+}
+
 /* .number12 par defaut --rotation= 0 */
 
 .clock .hand {
